@@ -27,7 +27,7 @@ You need to be assigned permissions in the Office 365 Security & Compliance Cent
 ## EXAMPLES
 
 ### Example 1
-```
+```powershell
 {{ Add example code here }}
 ```
 
@@ -48,6 +48,7 @@ The Identity parameter specifies the compliance boundary that you want to modify
 Type: ComplianceRuleIdParameter
 Parameter Sets: (All)
 Aliases:
+Applicable: Office 365 Security & Compliance Center
 
 Required: True
 Position: 0
@@ -63,6 +64,7 @@ The Comment parameter specifies an optional comment. If you specify a value that
 Type: String
 Parameter Sets: (All)
 Aliases:
+Applicable: Office 365 Security & Compliance Center
 
 Required: False
 Position: Named

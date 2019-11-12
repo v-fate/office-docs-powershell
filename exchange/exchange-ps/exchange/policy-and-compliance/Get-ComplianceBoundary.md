@@ -27,14 +27,14 @@ You need to be assigned permissions in the Office 365 Security & Compliance Cent
 ## EXAMPLES
 
 ### Example 1
-```
+```powershell
 Get-ComplianceBoundary | Format-Table Name,Priority,Workload
 ```
 
 This example returns a summary list of all compliance boundaries.
 
 ### Example 2
-```
+```powershell
 Get-ComplianceBoundary -Identity "Finance Department"
 ```
 
@@ -56,6 +56,7 @@ Type: ComplianceRuleIdParameter
 Parameter Sets: (All)
 Aliases:
 Applicable: Office 365 Security & Compliance Center
+
 Required: False
 Position: 0
 Default value: None
